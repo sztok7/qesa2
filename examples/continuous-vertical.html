@@ -4,19 +4,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>qe:sa</title>
-	<meta name="author" content="Luka Bubalo i Filip Štoković" />
 	<meta name="description" content="one big hempy family" />
-
 
 	<link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
-
-	<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-  <![endif]-->
-  <style>
+	<style>
   .section{
 		background-size: cover;
 	}
@@ -48,24 +40,36 @@
 	</style>
 </head>
 <body>
-
-<!--<ul id="menu">
-	<li data-menuanchor="home" class="active"><a href="#home">HOME</a></li>
-	<li data-menuanchor="about"><a href="#about">ABOUT</a></li>
-  <li data-menuanchor="one-big-hempy-family"><a href="#one-big-hempy-family">ONE BIG HEMPY FAMILY</a></li>
-  <li data-menuanchor="early-bird-price"><a href="#early-bird-price">EARLY-BIRD PRICE</a></li>
-  <li data-menuanchor="gallery"><a href="#gallery">GALLERY</a></li>
-  <li data-menuanchor="design-your-own"><a href="#design-your-own">DESIGN YOUR OWN</a></li>
-  <li data-menuanchor="contact"><a href="#contact">CONTACT</a></li>
-</ul>-->
-
 <div id="fullpage">
 	<div class="section" id="section0">
-		<!--<h1>home</h1>-->
+		<p style="font-family: agrandir-regular">ležaj za ljubimce punjen konopljom,</p>
+		<p>od prirodnih materijala</p><br>
+		<p>prvi i jedini u hrvatskoj</p>
+		<a class="button more-button" href="#about">više o nama</a>
 	</div>
 	<div class="section" id="section1">
-		<div class="intro">
-			<!-- <h1>about</h1> -->
+		<div class="slide active">
+			<p>mekan i udoban,</p><br>
+			<p>visoke toplinske vrijednosti,</p><br>
+			<p>otporan na grinje i ostale nametnike,</p><br>
+			<p>antibakterijski,</p><br>
+			<p>antialergenski,</p><br>
+			<p>biorazgradiv (kompostabilan),</p><br>
+			<p>s jastučnicom od prirodnog materijala,</p><br>
+			<p>perivom na 40 stupnjeva</p>
+		</div>
+		<div class="slide">
+			<p>o konoplji koju koristimo</p><br>
+			<p>naš dobavljač europska je tvrtka, specijalizirana za uzgoj i preradu sirovina od konoplje za proizvodnju visokokvalitetnih vlakana i pređe konoplje korištenu primarno u globalnoj tekstilnoj i modnoj industriji.</p><br>
+			<p>tvrtka je najveći proizvođač konopljinih vlakana na baltiku i upravlja cjelovitim ciklusom uzgoja i prerade vrhunskih vlakana konoplje te jamči kvalitetu vlakana konoplje jer kontrolira cjelokupni postupak: od odabira sjemena, njihove pripreme, uzgoja i ponovnog uzgoja do berbe i prerade.</p><br>
+			<p>sječka konoplje koju koristimo sadrži STANDARD 100 certifikat tvrtke OEKO-TEX®, jedne od najpoznatijih svjetskih brendova tekstila testiranog na štetne tvari.</p><br>
+			<p>zalaže se za povjerenje kupaca i visoku sigurnost proizvoda.</p><br>
+			<img src="../images/certificate-logo.svg" style="width: 20%">
+		</div>
+		<div class="slide">
+			<p>detaljnije o punjenju jastuka</p><br>
+			<p>qe:sa jastuk za ljubimce punjen je sječkom konoplje. sječka dolazi iz unutarnjeg sloja stabljike konoplje, mekana je na dodir i vrlo lagana. ima višenamjensku primjenu i snažan je izolirator.</p><br>
+			<p>upravo ove karakteristike u kombinaciji s drugim svojstvima, poput otpornosti na plijesan, čini je izvrsnom za našu primjenu.</p>
 		</div>
 	</div>
 	<div class="section" id="section2">
@@ -74,21 +78,22 @@
 		</div>
   </div>
   <div class="section" id="section3">
-		<div class="intro">
-			<!-- <h1>early-bird price</h1> -->
-		</div>
+	  <p>za najbržih 100 kupaca koji žele uštedjeti 40 %, kreirali smo early bird promotivnu cijenu od:</p><br><br>
+	  <p>399,00 kn</p><br><br>
+	  <a class="button more-button" target="_blank" href="https://qesa.myshopify.com">qesa.myshopify.com</a>
   </div>
   <div class="section" id="section4">
-		<div class="intro">
-			<!-- <h1>gallery</h1> -->
-			<div class="slide active" id="slide1"></div>
-      <div class="slide" id="slide2"></div>
-      <div class="slide" id="slide3"></div>
-      <div class="slide" id="slide4"></div>
-      <div class="slide" id="slide5"></div>
-      <div class="slide" id="slide6"></div>
-		</div>
+	  <div class="intro">
+		  <h1></h1>
+		  <div class="slide active" id="slide1"></div>
+		  <div class="slide" id="slide2"></div>
+		  <div class="slide" id="slide3"></div>
+		  <div class="slide" id="slide4"></div>
+		  <div class="slide" id="slide5"></div>
+		  <div class="slide" id="slide6"></div>
+	  </div>
   </div>
+
   <div class="section" id="section5">
 		<div class="intro">
 			<!-- <h1>design your own</h1> -->
@@ -101,7 +106,6 @@
   </div>
 </div>
 
-
 <script type="text/javascript" src="../dist/fullpage.js"></script>
 <script type="text/javascript" src="examples.js"></script>
 
@@ -112,8 +116,6 @@
       navigation:true,
       navigationTooltips: ['home', 'about', 'one big hempy family', 'early bird price', 'gallery', 'design your own', 'contact'],
       showActiveTooltip: true,
-      //responsiveWidth: 400,
-      // menu: '#menu',
       continuousVertical: true,
       keyboardScrolling: true,
       afterLoad: function(anchorLink, index){
