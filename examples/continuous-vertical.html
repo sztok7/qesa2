@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>qe:sa</title>
+	<meta name="author" content="Luka Bubalo i Filip Štoković" />
+	<meta name="description" content="one big hempy family" />
+
+
+	<link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+  <![endif]-->
+  <style>
+  .section{
+		background-size: cover;
+	}
+	.slide{
+		padding: 6.5% 0 0 0;
+		background-size: cover;
+  }
+  .fp-tableCell {
+    height: 100% !important;
+  }
+	#slide1{
+		background-image: url(gallery/photo-gallery-1.jpg);
+	}
+	#slide2{
+		background-image: url(gallery/photo-gallery-2.jpg);
+	}
+  #slide3{
+		background-image: url(gallery/photo-gallery-3.jpg);
+	}
+  #slide4{
+		background-image: url(gallery/photo-gallery-4.jpg);
+	}
+  #slide5{
+		background-image: url(gallery/photo-gallery-5.jpg);
+	}
+  #slide6{
+		background-image: url(gallery/photo-gallery-6.jpg);
+	}
+	</style>
+</head>
+<body>
+
+<!--<ul id="menu">
+	<li data-menuanchor="home" class="active"><a href="#home">HOME</a></li>
+	<li data-menuanchor="about"><a href="#about">ABOUT</a></li>
+  <li data-menuanchor="one-big-hempy-family"><a href="#one-big-hempy-family">ONE BIG HEMPY FAMILY</a></li>
+  <li data-menuanchor="early-bird-price"><a href="#early-bird-price">EARLY-BIRD PRICE</a></li>
+  <li data-menuanchor="gallery"><a href="#gallery">GALLERY</a></li>
+  <li data-menuanchor="design-your-own"><a href="#design-your-own">DESIGN YOUR OWN</a></li>
+  <li data-menuanchor="contact"><a href="#contact">CONTACT</a></li>
+</ul>-->
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<!--<h1>home</h1>-->
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+			<!-- <h1>about</h1> -->
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<!-- <h1>one big hempy family</h1> -->
+		</div>
+  </div>
+  <div class="section" id="section3">
+		<div class="intro">
+			<!-- <h1>early-bird price</h1> -->
+		</div>
+  </div>
+  <div class="section" id="section4">
+		<div class="intro">
+			<!-- <h1>gallery</h1> -->
+			<div class="slide active" id="slide1"></div>
+      <div class="slide" id="slide2"></div>
+      <div class="slide" id="slide3"></div>
+      <div class="slide" id="slide4"></div>
+      <div class="slide" id="slide5"></div>
+      <div class="slide" id="slide6"></div>
+		</div>
+  </div>
+  <div class="section" id="section5">
+		<div class="intro">
+			<!-- <h1>design your own</h1> -->
+		</div>
+  </div>
+  <div class="section" id="section6">
+		<div class="intro">
+			<!-- <h1>contact</h1> -->
+		</div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="../dist/fullpage.js"></script>
+<script type="text/javascript" src="examples.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+      sectionsColor: ['#000000', '#000000', '#000000', '#000000', '#000000', '#000000', '#ffffff'],
+      anchors: ['home', 'about', 'one-big-hempy-family', 'early-bird-price', 'gallery', 'design-your-own', 'contact'],
+      navigation:true,
+      navigationTooltips: ['home', 'about', 'one-big-hempy-family', 'early-bird-price', 'gallery', 'design-your-own', 'contact'],
+      showActiveTooltip: true,
+      //responsiveWidth: 400,
+      // menu: '#menu',
+      continuousVertical: true,
+      keyboardScrolling: true,
+      afterLoad: function(anchorLink, index){
+        console.log("AFTER LOAD - anchorLink:" + anchorLink + " index:" +index );
+      },
+      onLeave: function(index, nextIndex, direction){
+        console.log("ON LEAVE - index:" +index + " nextIndex:" + nextIndex  + " direction:" + direction);
+      }
+    });
+</script>
+
+</body>
+</html>
