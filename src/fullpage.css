@@ -236,7 +236,7 @@ html.fp-enabled,
     border: 0;
 }
 
-/*ROKALICA*/
+/* Sexy menu */
 .big-menu {
     position: absolute;
     top: -15px;
@@ -299,7 +299,7 @@ html.fp-enabled,
   display: block;
   height: 10px;
   width: 50px;
-  background-color: #fff;
+  background-color: #000000;
   transition: all 0.25s ease-out;
 }
 .info-close:after {
@@ -312,4 +312,8 @@ html.fp-enabled,
 
 .menu-nav {
     cursor: pointer;
+}
+
+.menu-header {
+    color: #000000;
 }
