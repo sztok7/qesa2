@@ -75,11 +75,13 @@ html.fp-enabled,
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #fff transparent transparent;
+    /*background-image: url(../images/icons/icon-arrow-prev.svg);*/
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
+    /*background-image: url(../images/icons/icon-arrow-next.svg);*/
 }
 .fp-scrollable {
     overflow: hidden;
@@ -252,7 +254,6 @@ html.fp-enabled,
     transition: all 0.4s ease-in-out;
     display: block;
     visibility: hidden;
-    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     max-height: 100%;
 }
@@ -310,10 +311,86 @@ html.fp-enabled,
   transform: rotate(0deg);
 }
 
+/* Menu */
 .menu-nav {
     cursor: pointer;
 }
 
 .menu-header {
     color: #000000;
+}
+
+.menu-button {
+    right: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger {
+    padding: 1em 0.5em;
+}
+
+/* Button */
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-color: #000000;
+    border-radius: 30px;
+    color: #ffffff !important;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-family: agrandir-regular;
+    font-size: 11px;
+    line-height: 4em;
+    padding: 0 2em;
+    text-decoration: none;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.more-button {
+    position: relative;
+    padding: 1.5em 4em;
+}
+
+/* Slides */
+.section{
+    background-size: cover;
+}
+
+.slide{
+    padding: 0;
+    background-size: cover;
+}
+
+#slide1{
+    background-image: url(../examples/gallery/photo-gallery-1.jpg);
+}
+
+#slide2{
+    background-image: url(../examples/gallery/photo-gallery-2.jpg);
+}
+
+#slide3{
+    background-image: url(../examples/gallery/photo-gallery-3.jpg);
+}
+
+#slide4{
+    background-image: url(../examples/gallery/photo-gallery-4.jpg);
+}
+
+#slide5{
+    background-image: url(../examples/gallery/photo-gallery-5.jpg);
+}
+
+#slide6{
+    background-image: url(../examples/gallery/photo-gallery-6.jpg);
 }

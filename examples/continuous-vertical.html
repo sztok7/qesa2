@@ -9,44 +9,14 @@
 	<link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
 	<link rel="stylesheet" type="text/css" href="../src/fullpage.css" />
-	<style>
-  	.section{
-			background-size: cover;
-		}
-		.slide{
-			padding: 6.5% 0 0 0;
-			background-size: cover;
-  	}
-  	.fp-tableCell {
-  	  height: 100% !important;
-  	}
-		#slide1{
-			background-image: url(gallery/photo-gallery-1.jpg);
-		}
-		#slide2{
-			background-image: url(gallery/photo-gallery-2.jpg);
-		}
-  	#slide3{
-			background-image: url(gallery/photo-gallery-3.jpg);
-		}
-  	#slide4{
-			background-image: url(gallery/photo-gallery-4.jpg);
-		}
-  	#slide5{
-			background-image: url(gallery/photo-gallery-5.jpg);
-		}
-  	#slide6{
-			background-image: url(gallery/photo-gallery-6.jpg);
-		}
-	</style>
 	<script src="../js/jquery-3.5.1.min.js"></script>
 	<script src="../js/menu.js"></script>
 </head>
 <body>
 <div id="fullpage">
-	<ul id="menu">
-		<li class="button" onclick="showMenu();">Menu</li>
-	</ul>
+	<div id="menu">
+		<div class="button menu-button" onclick="showMenu();"><img class="hamburger" src="../images/icons/hambi.svg" /></div>
+	</div>
 	<div class="section" id="section0">
 		<p style="font-family: agrandir-regular">ležaj za ljubimce punjen konopljom,</p>
 		<p>od prirodnih materijala</p><br>
@@ -139,17 +109,11 @@
       sectionsColor: ['#000000', '#000000', '#000000', '#000000', '#000000', '#000000', '#000000'],
 			anchors: ['home', 'about', 'one-big-hempy-family', 'early-bird-price', 'gallery', 'design-your-own', 'contact'],
 			menu: '#menu',
-      navigation:true,
+      navigation: true,
       navigationTooltips: ['home', 'about', 'one big hempy family', 'early bird price', 'gallery', 'design your own', 'contact'],
       showActiveTooltip: true,
       continuousVertical: true,
-      keyboardScrolling: true,
-      afterLoad: function(anchorLink, index){
-        console.log("AFTER LOAD - anchorLink:" + anchorLink + " index:" +index );
-      },
-      onLeave: function(index, nextIndex, direction){
-        console.log("ON LEAVE - index:" +index + " nextIndex:" + nextIndex  + " direction:" + direction);
-      }
+      keyboardScrolling: true
     });
 </script>
 
