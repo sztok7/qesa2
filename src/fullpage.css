@@ -309,3 +309,7 @@ html.fp-enabled,
 .info-close:hover:after {
   transform: rotate(0deg);
 }
+
+.menu-nav {
+    cursor: pointer;
+}
