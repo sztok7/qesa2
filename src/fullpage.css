@@ -100,11 +100,8 @@ html.fp-enabled,
 #fp-nav {
     position: fixed;
     z-index: 100;
-    top: 15%;
+    top: 6em;
     opacity: 1;
-    transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translate3d(0,-50%,0);
 }
 #fp-nav.fp-right {
     right: 17px;
