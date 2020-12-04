@@ -341,7 +341,7 @@ html.fp-enabled,
     color: #ffffff !important;
     border: 2px solid #fff;
     cursor: pointer;
-    font-size: 11px;
+    font-size: 1.2vh;
     line-height: 4em;
     padding: 0 2em;
     text-decoration: none;
@@ -355,6 +355,10 @@ html.fp-enabled,
 
 .more-button {
     position: relative;
+    padding: 0em 4em;
+}
+
+.early-bird-button {
     padding: 1.5em 4em;
 }
 
@@ -390,4 +394,12 @@ html.fp-enabled,
 
 #slide6{
     background-image: url(../examples/gallery/photo-gallery-6.jpg);
+}
+
+/* Coming soon */
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
