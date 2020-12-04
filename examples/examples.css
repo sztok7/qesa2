@@ -4,7 +4,6 @@
  * --------------------------------------- */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
 form,fieldset,input,textarea,p,blockquote,th,td {
-	font-family: agrandir-regular;
     padding: 0;
     margin: 0;
 }
@@ -56,7 +55,7 @@ abbr,acronym { border: 0;
 /* Custom CSS
  * --------------------------------------- */
 body{
-	font-family: agrandir-regular;
+	/* font-family: agrandir-regular; */
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
@@ -67,13 +66,13 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6em;
+	font-size: 4vh;
 }
 h3{
 	font-size: 2em;
 }
 p{
-	font-size: 2em;
+	font-size: 2.5vh;
 }
 .intro p{
 	width: 50%;
