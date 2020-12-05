@@ -355,7 +355,6 @@ html.fp-enabled,
 
 /* Slides */
 .section {
-    background-size: cover;
     padding: 0 10vw;
 }
 
@@ -365,31 +364,8 @@ html.fp-enabled,
 
 .slide {
     padding: 0;
-    background-size: cover;
-}
-
-#slide1 {
-    background-image: url(../examples/gallery/photo-gallery-1.jpg);
-}
-
-#slide2 {
-    background-image: url(../examples/gallery/photo-gallery-2.jpg);
-}
-
-#slide3 {
-    background-image: url(../examples/gallery/photo-gallery-3.jpg);
-}
-
-#slide4 {
-    background-image: url(../examples/gallery/photo-gallery-4.jpg);
-}
-
-#slide5 {
-    background-image: url(../examples/gallery/photo-gallery-5.jpg);
-}
-
-#slide6 {
-    background-image: url(../examples/gallery/photo-gallery-6.jpg);
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 /* Coming soon */
