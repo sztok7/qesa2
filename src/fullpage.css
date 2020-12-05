@@ -327,7 +327,7 @@ html.fp-enabled,
     -webkit-appearance: none;
     -ms-appearance: none;
     appearance: none;
-    background-color: #000000;
+    background-color: transparent;
     border-radius: 30px;
     color: #ffffff !important;
     border: 2px solid #fff;
