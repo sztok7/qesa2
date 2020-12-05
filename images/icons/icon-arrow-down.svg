@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="47px" height="47px" viewbox="0 0 47 47" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L47 0L47 47L0 47L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="slide-icon-Copy-3" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 47 0)">
+    <g id="slide-icon">
+      <path d="M0 0L47 0L47 47L0 47L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <g id="Group" transform="translate(12.713867 2.6359863)">
+          <path d="M1.414 41.728L0 40.314L19.451 20.863L0 1.414L1.414 0L22.279 20.863L1.414 41.728Z" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
