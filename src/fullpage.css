@@ -394,3 +394,7 @@ html.fp-enabled,
     align-items: center;
     justify-content: center;
 }
+
+.linkable:hover {
+    color: #dedede;
+}

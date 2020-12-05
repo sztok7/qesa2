@@ -12,6 +12,16 @@
 	<script src="../js/menu.js"></script>
 </head>
 <body>
+<div class="big-menu" id="big-menu">
+	<a class="info-close" onclick="closeMenu();"></a>
+	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#home');">Home</a></h3><br><br>
+	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#about');">About</a></h3><br><br>
+	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#one-big-hempy-family');">One big hempy family</a></h3><br><br>
+	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#early-bird-price');">Early-bird price</a></h3><br><br>
+	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#gallery');">Gallery</a></h3><br><br>
+	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#design-your-own');">Design your own</a></h3><br><br>
+	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#contact');">Contact</a></h3>
+</div>
 <div id="fullpage">
 	<div id="menu">
 		<div class="button menu-button" onclick="showMenu();"><img class="hamburger" src="../images/icons/hambi.svg" /></div>
@@ -83,24 +93,12 @@
 	  <p>razvoj proizvoda od ekološki održivih bio materijala</p><br>
 	  <p>njegoševa 14</p><br>
 	  <p>tel: +385 98 1815 789</p><br>
-	  <p>mail: info@qesapets.com</p><br>
-	  <p>facebook</p><br>
-	  <p>instagram</p><br><br><br><br>
-	  <img src="../images/bioblok.svg" alt="By bioblok">
+	  <a href="mailto:info@qesapets.com"><p class="linkable">mail: info@qesapets.com</p></a><br>
+	  <a target="_blank" href="https://www.facebook.com/qesapets"><p class="linkable">facebook</p></a><br>
+	  <a target="_blank" href="https://www.instagram.com/qe_sa_pets/"><p class="linkable">instagram</p></a><br><br><br><br>
+	  <a target="_blank" href="https://www.facebook.com/bioblok"><img src="../images/bioblok.svg" alt="By bioblok"></a>
   </div>
 </div>
-
-<div class="big-menu" id="big-menu">
-	<a class="info-close" onclick="closeMenu();"></a>
-	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#home');">Home</a></h3><br><br>
-	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#about');">About</a></h3><br><br>
-	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#one-big-hempy-family');">One big hempy family</a></h3><br><br>
-	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#early-bird-price');">Early-bird price</a></h3><br><br>
-	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#gallery');">Gallery</a></h3><br><br>
-	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#design-your-own');">Design your own</a></h3><br><br>
-	<h3><a class="menu-nav" onclick="closeMenu();setLocation('#contact');">Contact</a></h3>
-</div>
-
 <script type="text/javascript" src="../dist/fullpage.js"></script>
 
 <script type="text/javascript">
