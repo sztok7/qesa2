@@ -455,3 +455,8 @@ html.fp-enabled,
 .hide {
     opacity: 0;
 }
+
+/* Logo */
+.qesa-logo {
+    max-width: 7vw;
+}
