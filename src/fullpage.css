@@ -380,6 +380,12 @@ html.fp-enabled,
 .linkable:hover {
     color: #dedede;
 }
+.linkable-turquoise{
+    color: #51f8df
+}
+.linkable-turquoise:hover {
+    color: #3db7a6
+}
 
 /* Bounce */
 @-moz-keyframes bounce {
