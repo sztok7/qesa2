@@ -3,6 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<title>qe:sa</title>
 	<meta name="description" content="one big hempy family" />
 
@@ -24,10 +25,10 @@
 </div>
 <div id="fullpage">
 	<div id="menu">
-		<div class="button menu-button" onclick="showMenu();"><img class="hamburger" src="../images/icons/hambi.svg" /></div>
+		<div class="button menu-button" onclick="showMenu();"><img class="hamburger" src="../images/icons/hambi.svg" alt="menu" /></div>
 	</div>
 	<div class="section" id="section0">
-		<p><img src="../images/qesa-logo.png" class="qesa-logo" alt="qesa logo"/></p><br><br><br><br><br><br><br>
+		<p><img src="../images/qesa-logo.png" class="qesa-logo" alt="qe:sa logo"/></p><br><br><br><br><br><br><br>
 		<p>ležaj za ljubimce punjen konopljom,</p>
 		<p>od prirodnih materijala</p><br>
 		<p>prvi i jedini u hrvatskoj</p><br>
@@ -124,9 +125,10 @@
 			menu: '#menu',
       navigation: true,
       navigationTooltips: ['home', 'about', 'one big hempy family', 'early bird price', 'gallery', 'design your own', 'contact'],
-      showActiveTooltip: true,
       continuousVertical: true,
 			keyboardScrolling: true,
+			slidesNavigation: true,
+      slidesNavPosition: 'bottom',
 			onLeave: function() {
 				$('.arrow-down').addClass('hide');
 			}
