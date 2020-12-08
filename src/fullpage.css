@@ -514,6 +514,30 @@ html.fp-enabled,
     padding: 0 10vw;
 }
 
+.section.home {
+    background-image: url(images/slide-covers/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section.about {
+    background-image: url(images/slide-covers/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section.early-bird {
+    background-image: url(images/slide-covers/early-bird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section.hempy-family{
+    background-image: url(images/slide-covers/one-big-hempy-family.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .gallery-section {
     padding: 0;
 }
