@@ -434,6 +434,17 @@ html.fp-enabled,
     cursor: pointer;
 }
 
+.menu-nav-red {
+    cursor: pointer;
+    color: #b73232;
+
+}
+
+.menu-nav-red:hover {
+    cursor: pointer;
+    color: #991f1f;
+}
+
 .menu-header {
     color: #000000;
 }
