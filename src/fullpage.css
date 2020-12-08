@@ -685,7 +685,11 @@ html.fp-enabled,
 .qesa-logo {
     max-width: 20vh;
 }
-
+@media screen and (max-width: 420px) {
+    p.design-own {
+        font-size: medium;
+    }
+}
 /* White line hack bog te jebo */
 html {
     height: unset !important;
