@@ -9,3 +9,7 @@ function closeMenu() {
 function setLocation(location) {
   window.location = location;
 }
+
+$(document).ready(function() {
+  console.log("Modified w/ ❤ by: Luka Bubalo & Filip Stokovic");
+});
