@@ -403,6 +403,7 @@ html.fp-enabled,
     transition: all 530ms cubic-bezier(0.480, 0.030, 0.195, 1.510); /* custom */
     transform: scale(0) translateZ(0);
 }
+
 .big-menu.active .info-close{
     transform: scale(1) translateZ(0);
 }
@@ -421,12 +422,32 @@ html.fp-enabled,
   background-color: #ffffff;
   transition: all 0.25s ease-out;
 }
+
 .info-close:after {
   transform: rotate(-135deg);
 }
 .info-close:hover:before,
 .info-close:hover:after {
   transform: rotate(0deg);
+}
+
+@media screen and (max-width: 420px) {
+    .info-close {
+        font-size: x-small;
+        width: 15px;
+        height: 15px;
+        right: 6px;
+    }
+    .info-close:before {
+        font-size: x-small;
+        width: 3px;
+        height: 15px;
+    }
+    .info-close:after {
+        font-size: x-small;
+        width: 3px;
+        height: 15px;
+    }
 }
 
 /* Menu */
