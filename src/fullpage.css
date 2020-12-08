@@ -225,6 +225,12 @@ html.fp-enabled,
     top: 6em;
     opacity: 1;
 }
+@media screen and (max-width: 420px){
+    #fp-nav {
+        top: 4em;
+    }
+}
+
 #fp-nav.fp-right {
     right: 17px;
 }
